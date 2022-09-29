@@ -1,0 +1,182 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
+}
+/* MOBILE FIRST */
+
+@media screen and (max-width: 768px){
+    .h1-titulo{
+        font-size: 2.5rem;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .subtitulo{
+        font-size: 1.3rem;
+        text-align: center;
+        background: rgba(0,0,0,1);
+        color: rgba(253,165,38,1);
+        border-radius: 15px;
+        padding: 15px;
+    }
+    .titulo{
+        margin-top: 25%;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: row;
+    }
+    .equipos{
+        width: 100%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 15px;
+    }
+    .servicio{
+        display:flex;
+        flex-direction: column;
+        margin: 5%;
+        padding: 15px;
+    }
+    .apple-logo{
+        width: 25%;
+        
+    }
+    .descripcion-servicio{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        background: rgba(0,0,0,1);
+        color: rgba(253,165,38,1);
+        border-radius: 15px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .h2-descripcion{
+        font-size: 1.3rem;
+    }
+    .descripcion-p{
+        margin: 25px;
+        text-align: center;
+        padding: 15px;
+    }
+    .img-camara{
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    .mensajeria{
+        display: flex;
+        flex-direction: column;
+    }
+    .h3-mensajeria{
+        background: rgba(0,0,0,1);
+        color: rgba(253,165,38,1);
+        border-radius: 15px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        padding: 15px;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .container-delivery{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 15px;
+        margin: 10%;
+    }
+    .camion{
+        width: 45%;
+    }
+    .p-delivery{
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .container-reparacion{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background-color: rgba(253,165,38,1);
+        border-radius: 15px;
+        border: 5px solid;
+        padding: 25px;
+        box-shadow: gray 0px 20px 30px -10px;
+    }
+    .h2-reparacion{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .container-img-p{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5px;
+        margin: 15px;
+    }
+    .p-reparacion{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .cel-reparacion{
+        width: 75%;
+    }
+    .cel-reparacion2{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .container-nosotros{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 10%;
+        align-items: center;
+    }
+    .nosotros-p-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .h2-nosotros{
+        font-size: 2rem;
+        text-align: center;
+        color:rgba(253,165,38,1) ;
+    }
+    .p-nosotros{
+        font-size: 1rem;
+        text-align: center;
+        color:rgba(253,165,38,1) ;
+    }
+    .oficina{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    h4{
+        font-size: 2rem;
+        color: rgba(253,165,38,1);
+        text-align: center;
+        margin: 10%;
+    }
+    .p-footer{
+        color: rgba(253,165,38,1);
+        font-size: 1rem;
+        text-align: center;
+    }
+    .container-iconos{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+    }
+}
