@@ -5,24 +5,35 @@
     font-family: 'Permanent Marker', cursive;
 }
 body{
-    background: rgb(0,0,0);
-background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
+    background: rgb(253,165,38);
+background: linear-gradient(342deg, rgba(253,165,38,1) 15%, rgba(0,0,0,1) 35%);
+    /* background: rgb(0,0,0);
+background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%); */
 }
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 /* MOBILE FIRST */
 
 @media screen and (max-width: 768px){
     .h1-titulo{
         font-size: 2.5rem;
         font-family: 'Permanent Marker', cursive;
+        color: white;
     }
     .subtitulo{
         font-size: 1.3rem;
         text-align: center;
-        background: rgba(0,0,0,1);
-        color: rgba(253,165,38,1);
+        background: rgb(236,159,5);
+        background: linear-gradient(0deg, rgba(236,159,5,1) 0%, rgba(255,78,0,1) 100%);
+        color: rgba(0,0,0,1);
         border-radius: 15px;
         padding: 15px;
     }
+
     .titulo{
         margin-top: 25%;
         padding: 25px;
@@ -41,6 +52,9 @@ background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
         border-radius: 15px;
     }
+    .equipos2{
+        width: 100%;
+    }
     .servicio{
         display:flex;
         flex-direction: column;
@@ -55,8 +69,9 @@ background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
         display: flex;
         flex-direction: row;
         text-align: center;
-        background: rgba(0,0,0,1);
-        color: rgba(253,165,38,1);
+        background: rgb(236,159,5);
+        background: linear-gradient(0deg, rgba(236,159,5,1) 0%, rgba(255,78,0,1) 100%);
+        color: rgba(0,0,0,1);
         border-radius: 15px;
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
@@ -67,19 +82,20 @@ background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
         margin: 25px;
         text-align: center;
         padding: 15px;
+        color: white;
     }
     .img-camara{
         width: 100%;
-        border-radius: 15px;
-        margin-bottom: 15px;
+        margin-bottom: 20%;
     }
     .mensajeria{
         display: flex;
         flex-direction: column;
     }
     .h3-mensajeria{
-        background: rgba(0,0,0,1);
-        color: rgba(253,165,38,1);
+        background: rgb(236,159,5);
+        background: linear-gradient(0deg, rgba(236,159,5,1) 0%, rgba(255,78,0,1) 100%);
+        color: black;
         border-radius: 15px;
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
         padding: 15px;
@@ -91,6 +107,10 @@ background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
         flex-direction: row-reverse;
         gap: 15px;
         margin: 10%;
+        background: white;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px;
     }
     .camion{
         width: 45%;
@@ -104,7 +124,8 @@ background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
         display: flex;
         flex-direction: column;
         gap: 25px;
-        background-color: rgba(253,165,38,1);
+        background: rgb(236,159,5);
+        background: linear-gradient(0deg, rgba(236,159,5,1) 0%, rgba(255,78,0,1) 100%);
         border-radius: 15px;
         border: 5px solid;
         padding: 25px;
@@ -125,7 +146,8 @@ background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
         text-align: center;
     }
     .cel-reparacion{
-        width: 75%;
+        width: 60%;
+        
     }
     .cel-reparacion2{
         width: 100%;
@@ -137,6 +159,7 @@ background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
         gap: 15px;
         margin: 10%;
         align-items: center;
+
     }
     .nosotros-p-img{
         display: flex;
@@ -145,12 +168,12 @@ background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
     .h2-nosotros{
         font-size: 2rem;
         text-align: center;
-        color:rgba(253,165,38,1) ;
+        color:white;
     }
     .p-nosotros{
         font-size: 1rem;
         text-align: center;
-        color:rgba(253,165,38,1) ;
+        color:white;
     }
     .oficina{
         width: 100%;
@@ -162,12 +185,12 @@ background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
     }
     h4{
         font-size: 2rem;
-        color: rgba(253,165,38,1);
+        color: black;
         text-align: center;
         margin: 10%;
     }
     .p-footer{
-        color: rgba(253,165,38,1);
+        color: black;
         font-size: 1rem;
         text-align: center;
     }
@@ -178,5 +201,8 @@ background: linear-gradient(342deg, rgba(0,0,0,1) 44%, rgba(253,165,38,1) 44%);
         align-items: center;
         justify-content: center;
         margin: 50px;
+    }
+    .img-footer{
+        width: 100%;
     }
 }
